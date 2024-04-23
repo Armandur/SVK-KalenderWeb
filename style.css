@@ -5,27 +5,6 @@
 
 /* TODO: Ändra till DM Sans och Spectral enl nya grafiska profilen */
 @font-face {
-	font-family: 'Light';
-	src: url('fonts/light.ttf');
-}
-@font-face {
-	font-family: 'Book';
-	src: url('fonts/book.ttf');
-}
-@font-face {
-	font-family: 'Book-italic';
-	src: url('fonts/book-italic.ttf');
-}
-@font-face {
-	font-family: 'Demi';
-	src: url('fonts/demi.ttf');
-}
-@font-face {
-	font-family: 'Bold';
-	src: url('fonts/bold.ttf');
-}
-
-@font-face {
 	font-family: 'DM Sans Medium';
 	src: url('fonts/DM\ Sans/DMSans-Medium.ttf')
 }
