@@ -2,6 +2,8 @@
 /* CSS Document */
 
 /* Importera Svenska kyrkans teckensnitt Foundry Sterling */
+
+/* TODO: Ändra till DM Sans och Spectral enl nya grafiska profilen */
 @font-face {
 	font-family: 'Light';
 	src: url('fonts/light.ttf');
@@ -23,6 +25,26 @@
 	src: url('fonts/bold.ttf');
 }
 
+@font-face {
+	font-family: 'DM Sans Medium';
+	src: url('fonts/DM\ Sans/DMSans-Medium.ttf')
+}
+
+@font-face {
+	font-family: 'DM Sans Regular';
+	src: url('fonts/DM\ Sans/DMSans-Regular.ttf')
+}
+
+@font-face {
+	font-family: 'Spectral Regular';
+	src: url('fonts/Spectral/Spectral-Regular.ttf')
+}
+
+@font-face {
+	font-family: 'Spectral Italic';
+	src: url('fonts/Spectral/Spectral-Regular.ttf')
+}
+
 div {
 	box-sizing: border-box;
 	position: relative;
@@ -35,7 +57,7 @@ body {
 	padding: 0;
 	background: #fff;
 	color: #000;
-	font-family: 'Book', arial, sans-serif;
+	font-family: 'DM Sans Regular', arial, sans-serif;
 	font-size: 18px;
 	line-height: 110%;
 	text-align: left;
@@ -44,7 +66,7 @@ body {
 #header {
 	margin: 0;
 	padding: 0;
-	background: #d51317;
+	background: #7d0037;
 	color: #fff;
 	display: flex;
 	flex-wrap: wrap;
@@ -54,7 +76,7 @@ body {
 	margin: 10px;
 	padding: 15px;
 	font-size: 33px;
-	font-weight: normal;
+	font-family: 'DM Sans Medium', 'Arial Bold';
 	display: block;
 }
 

@@ -34,32 +34,21 @@
         // Färger hämtade från Svenska kyrkans grafiska profil
         // https://www.svenskakyrkan.se/grafiskprofil
         $colors = [
-                'mörkkyrkröd' => '#91160f',
-                'mörkkyrklila' => '#522583',
-                'mörkkyrkgrön' => '#4a6a21',
-                'mörkkyrkgul' => '#f59c00',
-                'mörkkyrkblå' => '#005884',
+                'beige'         =>      '#ffebe1',
+                'rosa'          =>      '#ffc3aa',
+                'orange'        =>      '#ff785a',
+                'vinröd'        =>      '#7d0037',
+                
+                'ljuslila'      =>      '#cdc3dd',
+                'lila'          =>      '#9b87ff',
+                'mörklila'      =>      "#412b72",
 
-                'kyrkröd' => '#d51317',
-                'kyrklila' => '#a71680',
-                'kyrkgrön' => '#6b9531',
-                'kyrkgul' => '#fdc300',
-                'kyrkblå' => '#006fb9',
-
-                'ljuskyrkröd' => '#ed6d91',
-                'ljuskyrklila' => '#bb71ac',
-                'ljuskyrkgrön' => '#afca0b',
-                'ljuskyrkgul' => '#ffdf43',
-                'ljuskyrkblå' => '#63c3d1',
-
-                'ljusastkyrkröd' => '#f5b3bd',
-                'ljusastkyrklila' => '#d1bcdc',
-                'ljusastkyrkgrön' => '#dddf4b',
-                'ljusastkyrkgul' => '#ffe37e',
-                'ljusastkyrkblå' => '#bee2e9'
+                'ljusgrön'      =>      '#bee1c8',
+                'grön'          =>      '#28a88e',
+                'mörkgrön'      =>      '#00554b'
                 
         ];
-        $color = $colors['kyrkröd'];
+        $color = $colors['vinröd'];
 
         //Om det finns ett organisations-ID i URL-en
         if (isset ($_GET['orgID']) && $_GET['orgID'] !== '') {
@@ -110,7 +99,7 @@
                 try {
                         $color = $colors[$_GET['color']];
                 } catch (Exception $e) {
-                        $color = $colors['kyrkröd'];
+                        $color = $colors['vinröd'];
                 }
         }
 		
