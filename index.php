@@ -150,6 +150,7 @@
         $antal_tillagda = '0';
 
         //Länk till kalenderdatan
+        /*
         $url = 'https://api.svenskakyrkan.se/calendarsearch/v4/SearchByParent?apikey='.$api_nyckel.'&orgId='.$organisations_id.'&$orderby=StartTime';
         if ($location_id !== '') { //Låt API:t filtrera location_id om vi filtrerar på ett sådant.
                 // %20 = space
@@ -178,9 +179,11 @@
                         $url .= $calendarSubGroup[$i];
                 }
                 $url .= ')';
-        }
+        }*/
 
-        //echo $url;
+        $api_url = 'https://svk-apim-prod.azure-api.net/calendar/v1/event/';
+        //TODO: Bygg query baserat på url-params
+        $query = 
 
         $kalender_api_lank = file_get_contents($url);
 
