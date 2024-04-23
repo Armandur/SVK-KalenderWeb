@@ -17,7 +17,7 @@
                 }
         }
 
-        $organisations_id = '20271'; //Default organisations-ID
+        $organisations_id = '2020,20271,20270,2025,2023,2024,7640,2022,2026'; //Default organisations-IDn, motsvarar församlingarna i Härnösands pastorat
         $organisation_namn = 'Svenska kyrkan'; //Default organisation
         $webbsida_rubrik = 'Svenska kyrkan'; //Default rubrik
         $max_handelser = '50'; //Max antal händelser att visa i kalendern
@@ -150,7 +150,7 @@
         $antal_tillagda = '0';
 
         //Länk till kalenderdatan
-        /*
+        
         $url = 'https://api.svenskakyrkan.se/calendarsearch/v4/SearchByParent?apikey='.$api_nyckel.'&orgId='.$organisations_id.'&$orderby=StartTime';
         if ($location_id !== '') { //Låt API:t filtrera location_id om vi filtrerar på ett sådant.
                 // %20 = space
@@ -179,13 +179,68 @@
                         $url .= $calendarSubGroup[$i];
                 }
                 $url .= ')';
-        }*/
+        }
 
-        $api_url = 'https://svk-apim-prod.azure-api.net/calendar/v1/event/';
+        $api_url = 'https://svk-apim-prod.azure-api.net/calendar/v1/event/search?subscription-key='.$api_nyckel.'&limit=50'.'&expand=*'.'&owner_id='.$organisations_id.'&from=now'/*.'&to=2w'*/;
+        # expand=* Tar med t.ex. platsnamnet, inte bara platsID - Underlättar :)
+
+        if ($location_id !== '') { //Låt API:t filtrera location_id om vi filtrerar på ett sådant.
+                $api_url .= '&place_id='.$location_id; # I nya api:t kan det vara abc123 eller abc123,abc456,abc789 - den senare tar händelser från alla tre platser
+        }
+        # Härnösands domkyrka = 5dab016f-18f3-4973-92d8-69779653a1ef
+
         //TODO: Bygg query baserat på url-params
-        $query = 
+        $query = "";
+        # echo($api_url);
+        $response = file_get_contents($api_url);
+        #echo($response);
+        
+        #Konvertera till array
+        $response = json_decode($response, true); # Här finns också länk till att hämta nästa 50 [LIMIT] resultat i $response['next']
+        if($response === FALSE)
+        {
+                $kalender = "Ett API-anrop fungerade inte.";
+        }
+        else
+        {
+                $events = $response['result'];
+                $events_count = count($events);
+                
+                echo '<pre>';
+                print_r($events[8]);
 
-        $kalender_api_lank = file_get_contents($url);
+                foreach ($events as $event)
+                {
+                        $starttid = str_replace(':', '.', substr($event['startLocalTime']['time'], 0, 5)); # Gör om hh:MM:ss till hh.MM
+                        $sluttid = str_replace(':', '.', substr($event['endLocalTime']['time'], 0, 5)); # Sluttid är tvingande i nya API:t så vi behöver inte kolla om det finns, det finns _alltid_ :)
+                        
+                        $medverkande = "";
+                        foreach ($event['performers'] as $person)
+                        {
+                                $medverkande .= $person['title'].': '.$person['name'].', '; # Kommatecken och mellanslag efter varje medverkande.
+                        }
+                        $medverkande = rtrim(trim($medverkande), ','); #Ta bort sista kommatecknet och mellanslag för att hålla $medverkande "ren".
+                        
+                        $beskrivning = "";
+                        if (array_key_exists('description', $event)) # Om det finns beskrivning.
+                        {
+                                $beskrivning = $event['description']; # Verkar vara ren text nu i nya API:t, dvs ingen formatering, ev bara när det kommer från bokningssystem?
+                                
+                                # Nä förresten, radbrytningar finns fortfarande - som \r\n
+                                # TODO: Kolla på aktiviter om man använder kalenderadmin, kan man formatera där och blir det då html i returnerad händelse från apit?
+
+                                $beskrivning = str_ireplace(array("\r", "\n"), array('', ' '), $beskrivning);
+                                
+                                /*
+                                $beskrivning = str_ireplace(array('<B>', '</B>', '<BR /><BR />', '<BR />', '<BR>', '. . ', '.. '), array('', '', '', '. ', '. ', '. ', '. '), $beskrivning);
+                                $beskrivning = preg_replace('#<a.*?>.*?</a>#i', '', $beskrivning);
+                                */
+                        }
+                        print($event['startLocalTime']['date'].' - '.$starttid.'-'.$sluttid.' '.$event['title'].', '.$event['place']['name'].' - '.$medverkande.' - '.$beskrivning);
+                        print("\n");
+                }
+                echo '</pre>';
+        }
 
         //Om API-länken inte fungerar
         if($kalender_api_lank === FALSE) {

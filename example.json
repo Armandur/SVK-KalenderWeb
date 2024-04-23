@@ -1,0 +1,2279 @@
+{
+	"limit": 50,
+	"next": "https://svk-apim-prod.azure-api.net/calendar/v1/event/search?subscription-key=[[APINYCKEL!]]&limit=50&owner_id=2020,20271,20270,2025,2023,2024,7640,2022,2026&from=now&place_id=5dab016f-18f3-4973-92d8-69779653a1ef&continuation=dJJfT%2BJAFMW%2Fy%2B0jdWdgC9RJeDgzneKAWAaqGzU%2BCNSh8qcKNUUM%2B9k31TfjnuTc3Idf7k1Ozv0HzYvNS7HPyywtVtmWxAeVXws1JiYSf3G7v4JpjIPt9nVVWXyp1%2FMmqWh66USJNvcmaSQaV%2B3BMn5KBlyhE7acS8bLhbs%2BjtJR8%2FJZB7VvUt1JjvpQ%2B%2FKoD6O0djwDvnPmkBztD1yv55npjWh5Riei0253up5VsQg9ZSLR8uKxEnC6P7B3HGoYxgH6TiWQIxijJBSAVRQC0mpoBQtjcmA6hQRy1LMCtFk5J5UChoBTUkoYpSywhFUW2smLSloUAAyGr7I%2BV%2BSwDgaF09PcDHETQ1oHhYsKSsHAAg6fT%2BAg6yTnUgOFQr81imyByWN%2BBKKgeZzHkKaBUSuV8yhknzoyVmkERutqFDH2xNjiPIyfC1wDUdiobjELl8wZpFCbtdZGGnlt3sdsxhjrMp4yBH%2BGurK46p5HTto%2BIg2H5Wx9uB1iPO3ERr65fgOZwQIOrlgGCiobXFQGqQmW0kmV2MixKlzDRfsX2%2BuRT7vHrcvq3mzyLQkinzaPBxIUx3Q6%2BVTsFtlOvpsy2%2BxJ3H9QXmYbEtTireCMd894N%2BXngnPB%2BS%2F%2BpTs6%2BT9xTS5%2Bf%2BMefNrlCxL0v5qST%2FtV%2FqKKt21Jgvv0lK%2FLbEeCyt1bRqeHfwAAAP%2F%2FAwA%3D",
+	"continuation": "dJJfT+JAFMW/y+0jdWdgC9RJeDgzneKAWAaqGzU+CNSh8qcKNUUM+9k31TfjnuTc3Idf7k1Ozv0HzYvNS7HPyywtVtmWxAeVXws1JiYSf3G7v4JpjIPt9nVVWXyp1/MmqWh66USJNvcmaSQaV+3BMn5KBlyhE7acS8bLhbs+jtJR8/JZB7VvUt1JjvpQ+/KoD6O0djwDvnPmkBztD1yv55npjWh5Riei0253up5VsQg9ZSLR8uKxEnC6P7B3HGoYxgH6TiWQIxijJBSAVRQC0mpoBQtjcmA6hQRy1LMCtFk5J5UChoBTUkoYpSywhFUW2smLSloUAAyGr7I+V+SwDgaF09PcDHETQ1oHhYsKSsHAAg6fT+Ag6yTnUgOFQr81imyByWN+BKKgeZzHkKaBUSuV8yhknzoyVmkERutqFDH2xNjiPIyfC1wDUdiobjELl8wZpFCbtdZGGnlt3sdsxhjrMp4yBH+GurK46p5HTto+Ig2H5Wx9uB1iPO3ERr65fgOZwQIOrlgGCiobXFQGqQmW0kmV2MixKlzDRfsX2+uRT7vHrcvq3mzyLQkinzaPBxIUx3Q6+VTsFtlOvpsy2+xJ3H9QXmYbEtTireCMd894N+XngnPB+S/+pTs6+T9xTS5+f+MefNrlCxL0v5qST/tV/qKKt21Jgvv0lK/LbEeCyt1bRqeHfwAAAP//AwA=",
+	"result": [
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-24",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-24",
+				"time": "08:45:00"
+			},
+			"id": "f577153330a94e33b088c970612ff390",
+			"additionalId": "1704925466",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-04-24T08:00:00+02:00",
+			"end": "2024-04-24T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Johanna Janzon Wikström",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Emma Ekebjörk",
+					"title": "Musiker",
+					"consentGiven": true
+				},
+				{
+					"name": "Anneli Hällgren",
+					"title": "Ansvarig",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:49.3385844+01:00",
+			"updated": "2024-04-22T13:46:23.1365605+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-25",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-25",
+				"time": "18:45:00"
+			},
+			"id": "cc2fcb742dfd4347a63d1aebc4d9e10d",
+			"additionalId": "1180750005",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-04-25T18:00:00+02:00",
+			"end": "2024-04-25T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:16.4211384+01:00",
+			"updated": "2024-04-18T08:53:48.9761063+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-25",
+				"time": "19:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-25",
+				"time": "20:00:00"
+			},
+			"id": "db3d15ed4ed6479e8c6c17bead241135",
+			"additionalId": "756263382",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Kristen djupmeditation",
+			"description": "Välkommen att prova på Kristen djupmeditation. Vi sitter på pall eller stol. Öppen grupp så du kommer när du kan. Kostnadsfritt.",
+			"start": "2024-04-25T19:00:00+02:00",
+			"end": "2024-04-25T20:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "cristina.gronroos@svenskakyrkan.se",
+				"phone": "0611-288 02",
+				"name": "Cristina Grönroos",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"kroppOchSjal": {},
+				"dropIn": {}
+			},
+			"created": "2023-10-03T13:54:42.9028751+02:00",
+			"updated": "2023-10-03T13:54:42.9028751+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-27",
+				"time": "11:30:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-27",
+				"time": "12:00:00"
+			},
+			"id": "a3709be96061401384b7baa51d3d9138",
+			"additionalId": "1391512913",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Lördagsmusik",
+			"description": "Orgelmusik med enkelt fika efteråt",
+			"start": "2024-04-27T11:30:00+02:00",
+			"end": "2024-04-27T12:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:47:05.6572182+01:00",
+			"updated": "2024-04-05T08:18:38.4733119+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-28",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-04-28",
+				"time": "12:30:00"
+			},
+			"id": "9904541844674774896096d0c1e657c6",
+			"additionalId": "2033149312",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-04-28T11:00:00+02:00",
+			"end": "2024-04-28T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Heri Eysturlíð",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:16.6130078+01:00",
+			"updated": "2024-03-19T11:08:59.4368183+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-02",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-02",
+				"time": "18:45:00"
+			},
+			"id": "39bc0523206f4207991a43d00d772e02",
+			"additionalId": "289661587",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-05-02T18:00:00+02:00",
+			"end": "2024-05-02T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Johanna Janzon Wikström",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Ellinor Stenlund",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:16.8181269+01:00",
+			"updated": "2024-03-21T14:16:32.6973445+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-02",
+				"time": "19:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-02",
+				"time": "20:00:00"
+			},
+			"id": "531b9e9fba4945f886e41765deedc95c",
+			"additionalId": "99615348",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Kristen djupmeditation",
+			"description": "Välkommen att prova på Kristen djupmeditation. Vi sitter på pall eller stol. Öppen grupp så du kommer när du kan. Kostnadsfritt.",
+			"start": "2024-05-02T19:00:00+02:00",
+			"end": "2024-05-02T20:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "cristina.gronroos@svenskakyrkan.se",
+				"phone": "0611-288 02",
+				"name": "Cristina Grönroos",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"kroppOchSjal": {},
+				"dropIn": {}
+			},
+			"created": "2023-10-03T13:54:43.3164163+02:00",
+			"updated": "2023-10-03T13:54:43.3164163+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-04",
+				"time": "11:30:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-04",
+				"time": "12:00:00"
+			},
+			"id": "8f7da269fc1b42cf8f5aa6290febdeb4",
+			"additionalId": "1672982493",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Lördagsmusik",
+			"description": "Orgelmusik med enkelt fika efteråt",
+			"start": "2024-05-04T11:30:00+02:00",
+			"end": "2024-05-04T12:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:47:05.992601+01:00",
+			"updated": "2024-04-09T10:24:46.0922211+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-05",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-05",
+				"time": "12:30:00"
+			},
+			"id": "fed6f3b4fda74ad0a1292afe0dab0b56",
+			"additionalId": "389999811",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa, gemensam för Ådalens kontrakt - livesänds",
+			"description": "Stigsjökören medverkar, därefter efterföljande kyrkkaffe i församlingsgården, Franzéngatan.\r\nAnmälan till kyrkkaffe senast 28/4 , anmälan görs på vår hemsida\r\n\r\nVid efterföljande samling i Domkyrkos församlingsgård kommer biskop Eva hålla ett kortare anförande där hon delar lite tankar inför framtiden utifrån det som hon mött och upplevt som viktigt under sin biskopstid.",
+			"start": "2024-05-05T11:00:00+02:00",
+			"end": "2024-05-05T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Biskop Eva Nordung Byström",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Kent Nordin",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Elenor Andersson",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				},
+				{
+					"name": "Emma Ekebjörk",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:16.9794498+01:00",
+			"updated": "2024-04-11T15:14:11.429772+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-05",
+				"time": "16:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-05",
+				"time": "17:00:00"
+			},
+			"id": "a9cbcd1216bb4da9b91ad007a466b5d4",
+			"additionalId": "1830998783",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Söndagsmusik Symfoniska kontraster",
+			"description": "Per Brudsten spelar symfonisk orgelmusik av Max Reger och Maurice Duruflé",
+			"start": "2024-05-05T16:00:00+02:00",
+			"end": "2024-05-05T17:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2024-02-02T14:24:02.5601929+01:00",
+			"updated": "2024-02-09T11:03:00.4002626+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-08",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-08",
+				"time": "08:45:00"
+			},
+			"id": "dbaf4c9fcc874d3a8c4281d3636ecad5",
+			"additionalId": "1643917593",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-05-08T08:00:00+02:00",
+			"end": "2024-05-08T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Mraia Kihl",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Christina Ahlenius",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:50.1731117+01:00",
+			"updated": "2024-04-22T13:46:39.6441349+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-09",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-09",
+				"time": "12:30:00"
+			},
+			"id": "208105a398234cf7aa62f5926f86d038",
+			"additionalId": "1625843669",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-05-09T11:00:00+02:00",
+			"end": "2024-05-09T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Katarina Adamsson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:43.6172494+01:00",
+			"updated": "2024-01-30T15:13:47.052911+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-11",
+				"time": "11:30:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-11",
+				"time": "12:00:00"
+			},
+			"id": "5a79f4bd641244859aec951525c791a0",
+			"additionalId": "1507470011",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Lördagsmusik",
+			"description": "Orgelmusik med enkelt fika efteråt",
+			"start": "2024-05-11T11:30:00+02:00",
+			"end": "2024-05-11T12:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2024-01-30T15:33:21.1879581+01:00",
+			"updated": "2024-04-05T08:19:31.0876544+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-11",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-11",
+				"time": "19:00:00"
+			},
+			"id": "97e57069489e4241a1a46255a3ce4381",
+			"additionalId": "1548274544",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Sinnesrogudstjänst",
+			"description": "Välkommen att dela gemenskap, vi möts i öppenhet för att be om sinnesro. Du får möjlighet att aktivt delta genom att tända ljus, skriva en bön, få förbön – eller bara sitta i bänken och ta del av ord och sång.",
+			"start": "2024-05-11T18:00:00+02:00",
+			"end": "2024-05-11T19:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Susanne Öhlén",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Hilma Lindell",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Emma Ekebjörk",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2024-01-15T14:00:58.8149302+01:00",
+			"updated": "2024-03-27T11:49:57.4009877+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-12",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-12",
+				"time": "12:30:00"
+			},
+			"id": "90788a8059be4e2fad218d1de5049a86",
+			"additionalId": "1587739388",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"description": "Högsjö-Hemsökören medverkar",
+			"start": "2024-05-12T11:00:00+02:00",
+			"end": "2024-05-12T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Susanne Öhlén",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Heri Eysturlíð",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:17.3865138+01:00",
+			"updated": "2024-04-05T15:08:58.2755012+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-15",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-15",
+				"time": "08:45:00"
+			},
+			"id": "ffc02d2bc7e244eba4ae16ecdcd273f1",
+			"additionalId": "373560163",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-05-15T08:00:00+02:00",
+			"end": "2024-05-15T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Maria Åhlander",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Sonja Bjermqvist",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:50.6626908+01:00",
+			"updated": "2024-04-05T11:34:20.8522591+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-16",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-16",
+				"time": "18:45:00"
+			},
+			"id": "3461cbf6970c4b00bfc9af31315533b4",
+			"additionalId": "208360847",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-05-16T18:00:00+02:00",
+			"end": "2024-05-16T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Mattias Huss",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:17.2650621+01:00",
+			"updated": "2024-03-21T14:18:23.7521882+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-16",
+				"time": "19:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-16",
+				"time": "20:00:00"
+			},
+			"id": "5e549b1c1d474992a11bb70361a3bbea",
+			"additionalId": "1029590687",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Kristen djupmeditation",
+			"description": "Välkommen att prova på Kristen djupmeditation. Vi sitter på pall eller stol. Öppen grupp så du kommer när du kan. Kostnadsfritt.",
+			"start": "2024-05-16T19:00:00+02:00",
+			"end": "2024-05-16T20:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "cristina.gronroos@svenskakyrkan.se",
+				"phone": "0611-288 02",
+				"name": "Cristina Grönroos",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"kroppOchSjal": {},
+				"dropIn": {}
+			},
+			"created": "2023-10-03T13:54:44.2424175+02:00",
+			"updated": "2023-10-03T13:54:44.2424175+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-18",
+				"time": "11:30:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-18",
+				"time": "12:00:00"
+			},
+			"id": "db4c57446ac7428fa853dc9b7c909650",
+			"additionalId": "157280396",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Lördagsmusik",
+			"description": "Orgelmusik med enkelt fika efteråt",
+			"start": "2024-05-18T11:30:00+02:00",
+			"end": "2024-05-18T12:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:47:06.7916826+01:00",
+			"updated": "2024-04-05T08:20:12.4110937+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-19",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-19",
+				"time": "12:30:00"
+			},
+			"id": "8b166bf4919346229c41caaf6cbaba87",
+			"additionalId": "1127523123",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"description": "Domkyrkokören",
+			"start": "2024-05-19T11:00:00+02:00",
+			"end": "2024-05-19T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:17.7885887+01:00",
+			"updated": "2024-04-17T09:42:06.1980691+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-20",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-20",
+				"time": "19:00:00"
+			},
+			"id": "77be04f54e1c49f49a7ec2cedfc8e325",
+			"additionalId": "2053597671",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Mässa",
+			"start": "2024-05-20T18:00:00+02:00",
+			"end": "2024-05-20T19:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Katarina Adamsson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T10:57:43.9798569+01:00",
+			"updated": "2024-04-11T15:48:56.3973107+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-22",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-22",
+				"time": "08:45:00"
+			},
+			"id": "47a25c45ef314542b030ffd535390bb2",
+			"additionalId": "1173969327",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-05-22T08:00:00+02:00",
+			"end": "2024-05-22T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Katarina Adamsson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Elenor Andersson",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Heri Eysturlid",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:51.0847992+01:00",
+			"updated": "2024-02-01T16:14:52.4452098+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-23",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-23",
+				"time": "18:45:00"
+			},
+			"id": "7b8b8f9110674388a54db8d3e6eb6cec",
+			"additionalId": "1517461209",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-05-23T18:00:00+02:00",
+			"end": "2024-05-23T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:17.6547839+01:00",
+			"updated": "2024-03-21T14:19:35.2983377+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-23",
+				"time": "19:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-23",
+				"time": "20:00:00"
+			},
+			"id": "bb50524e5af549088204cf76f083a5a3",
+			"additionalId": "83444168",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Kristen djupmeditation",
+			"description": "Välkommen att prova på Kristen djupmeditation. Vi sitter på pall eller stol. Öppen grupp så du kommer när du kan. Kostnadsfritt.",
+			"start": "2024-05-23T19:00:00+02:00",
+			"end": "2024-05-23T20:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "cristina.gronroos@svenskakyrkan.se",
+				"phone": "0611-288 02",
+				"name": "Cristina Grönroos",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"kroppOchSjal": {},
+				"dropIn": {}
+			},
+			"created": "2023-10-03T13:54:44.6276723+02:00",
+			"updated": "2023-10-03T13:54:44.6276723+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-25",
+				"time": "11:30:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-25",
+				"time": "12:00:00"
+			},
+			"id": "efc4f1f3d868419681328a5355ebff21",
+			"additionalId": "880097620",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Lördagsmusik",
+			"description": "Orgelmusik med enkelt fika efteråt",
+			"start": "2024-05-25T11:30:00+02:00",
+			"end": "2024-05-25T12:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:47:07.1363999+01:00",
+			"updated": "2024-04-05T08:20:43.3718748+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-26",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-26",
+				"time": "12:30:00"
+			},
+			"id": "9bd566f319804322a67e916a400d8866",
+			"additionalId": "1712476433",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-05-26T11:00:00+02:00",
+			"end": "2024-05-26T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Katarina Adamsson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Diakoniassistent Sofia Berglund",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:18.1597606+01:00",
+			"updated": "2024-03-08T11:22:30.0978271+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-26",
+				"time": "16:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-26",
+				"time": "17:30:00"
+			},
+			"id": "e4483774f895471ca4e70dee95d35a31",
+			"additionalId": "1694884285",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Söndagsmusik - Domkyrkokörens vårkonsert",
+			"description": "Vårkonsert med domkyrkokören, musiker o solister.\r\n\r\nDirigent Lars G Fredriksson",
+			"start": "2024-05-26T16:00:00+02:00",
+			"end": "2024-05-26T17:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "lars.fredriksson@svenskakyrkan.se",
+				"phone": "0611-288 40",
+				"name": "Lars G Fredriksson",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"musikOchKor": {}
+			},
+			"created": "2023-11-15T10:16:50.6298968+01:00",
+			"updated": "2024-01-30T10:08:23.7900598+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-29",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-29",
+				"time": "08:45:00"
+			},
+			"id": "b033e69811c44832981030cbf77ca3f3",
+			"additionalId": "820738225",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-05-29T08:00:00+02:00",
+			"end": "2024-05-29T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Eva Nordung Byström",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Hilma Lindell",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:51.4640171+01:00",
+			"updated": "2024-02-01T16:16:25.4799505+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-30",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-05-30",
+				"time": "18:45:00"
+			},
+			"id": "436158a26b3c400caab2ca3b78778c64",
+			"additionalId": "88779674",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Regnbågsmässa",
+			"description": "Efterföljande Schlager- och fikakväll i församlingsgården.",
+			"start": "2024-05-30T18:00:00+02:00",
+			"end": "2024-05-30T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Katarina Adamsson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Sanna Norberg",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:18.0489502+01:00",
+			"updated": "2024-04-17T11:55:31.8080976+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-02",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-02",
+				"time": "12:30:00"
+			},
+			"id": "3f851f8d4e584c589d08cb84989a9738",
+			"additionalId": "1732333563",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-06-02T11:00:00+02:00",
+			"end": "2024-06-02T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:18.567939+01:00",
+			"updated": "2024-04-04T13:11:05.2381533+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-02",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-02",
+				"time": "19:00:00"
+			},
+			"id": "7a953856a7a74d77aa8ab7305889ddbc",
+			"additionalId": "1599858635",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Terminsavslutningskonsert med Soul kids, Children och teens",
+			"description": "Terminsavslutning för Soul kids, children och teens! Varmt välkomna till en konsert fylld av energi och glädje!",
+			"start": "2024-06-02T18:00:00+02:00",
+			"end": "2024-06-02T19:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"name": "Sanna Norberg",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"musikOchKor": {}
+			},
+			"created": "2024-02-12T08:12:04.5098623+01:00",
+			"updated": "2024-03-18T11:37:25.2701128+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-05",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-05",
+				"time": "08:45:00"
+			},
+			"id": "d8b7a7c09ed74f958e519865a4284141",
+			"additionalId": "182671685",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-06-05T08:00:00+02:00",
+			"end": "2024-06-05T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Stina Östman",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Ami Karlqvist",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:51.8840465+01:00",
+			"updated": "2024-02-01T16:17:06.4758536+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-08",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-08",
+				"time": "19:00:00"
+			},
+			"id": "33def29f8cb9486d9ff84b5e0d37cced",
+			"additionalId": "1110157138",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Sinnesrogudstjänst",
+			"description": "Välkommen att dela gemenskap, vi möts i öppenhet för att be om sinnesro. Du får möjlighet att aktivt delta genom att tända ljus, skriva en bön, få förbön – eller bara sitta i bänken och ta del av ord och sång.",
+			"start": "2024-06-08T18:00:00+02:00",
+			"end": "2024-06-08T19:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Susanne Öhlén",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Diakoniassistent Sofia Berglund",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Emma Ekebjörk",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2024-01-15T14:01:00.7441687+01:00",
+			"updated": "2024-04-04T13:31:17.1402815+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-09",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-09",
+				"time": "12:30:00"
+			},
+			"id": "e3d32fd7eb314c16a5aee01c3d01cd8a",
+			"additionalId": "1440839597",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"description": "Avskedspredikan Johan Holgersson",
+			"start": "2024-06-09T11:00:00+02:00",
+			"end": "2024-06-09T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Johan Holgersson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Elenor Andersson",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:18.9930999+01:00",
+			"updated": "2024-04-22T08:50:01.5901616+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-12",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-12",
+				"time": "08:45:00"
+			},
+			"id": "ee2a70f4f6c94ca7959850dc097b09c9",
+			"additionalId": "1738709470",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-06-12T08:00:00+02:00",
+			"end": "2024-06-12T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:52.2714403+01:00",
+			"updated": "2023-11-22T16:18:58.090188+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-13",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-13",
+				"time": "18:45:00"
+			},
+			"id": "d8368902d15040b09dacde93e3722977",
+			"additionalId": "1347953262",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa i Taizéton",
+			"start": "2024-06-13T18:00:00+02:00",
+			"end": "2024-06-13T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:19.1458446+01:00",
+			"updated": "2024-02-22T11:10:44.5385146+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-13",
+				"time": "19:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-13",
+				"time": "20:00:00"
+			},
+			"id": "4c5b278ce62244b68bff5f609944b5b7",
+			"additionalId": "1256778447",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Kristen djupmeditation",
+			"description": "Välkommen att prova på Kristen djupmeditation. Vi sitter på pall eller stol. Öppen grupp så du kommer när du kan. Kostnadsfritt.",
+			"start": "2024-06-13T19:00:00+02:00",
+			"end": "2024-06-13T20:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "cristina.gronroos@svenskakyrkan.se",
+				"phone": "0611-288 02",
+				"name": "Cristina Grönroos",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"kroppOchSjal": {},
+				"dropIn": {}
+			},
+			"created": "2023-10-03T13:54:46.4804134+02:00",
+			"updated": "2023-10-03T13:54:46.4804134+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-16",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-16",
+				"time": "12:30:00"
+			},
+			"id": "e6a0eaeb4c504c739a6d11bba505b5b4",
+			"additionalId": "1778339905",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Diakonvigningsgudstjänst - livesänds",
+			"start": "2024-06-16T11:00:00+02:00",
+			"end": "2024-06-16T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Biskop Eva Nordung Byström",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Kent Nordin",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Elenor Andersson",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Lars G Fredriksson",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T10:57:19.3339637+01:00",
+			"updated": "2024-04-04T13:17:27.3004419+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-19",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-19",
+				"time": "08:45:00"
+			},
+			"id": "e12ebcd5830a433fa2b5eb6dc726e06c",
+			"additionalId": "1523442221",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-06-19T08:00:00+02:00",
+			"end": "2024-06-19T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:52.8130289+01:00",
+			"updated": "2023-11-22T16:18:24.4427945+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-20",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-20",
+				"time": "18:45:00"
+			},
+			"id": "fe161b7c5b7d4a50959665faaa97a270",
+			"additionalId": "1542089147",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-06-20T18:00:00+02:00",
+			"end": "2024-06-20T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:19.543246+01:00",
+			"updated": "2023-11-22T16:18:28.734432+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-20",
+				"time": "19:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-20",
+				"time": "20:00:00"
+			},
+			"id": "d78d6935d573446d8eb23f0ddd34f6e3",
+			"additionalId": "1131283848",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Kristen djupmeditation",
+			"description": "Välkommen att prova på Kristen djupmeditation. Vi sitter på pall eller stol. Öppen grupp så du kommer när du kan. Kostnadsfritt.",
+			"start": "2024-06-20T19:00:00+02:00",
+			"end": "2024-06-20T20:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"email": "cristina.gronroos@svenskakyrkan.se",
+				"phone": "0611-288 02",
+				"name": "Cristina Grönroos",
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"kroppOchSjal": {},
+				"dropIn": {}
+			},
+			"created": "2023-10-03T13:54:47.0124574+02:00",
+			"updated": "2023-10-03T13:54:47.0124574+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-22",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-22",
+				"time": "12:30:00"
+			},
+			"id": "5b17689625e64dc8b323f10c522bbf6f",
+			"additionalId": "707318292",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-06-22T11:00:00+02:00",
+			"end": "2024-06-22T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Cristina Grönroos",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:44.5599683+01:00",
+			"updated": "2024-04-04T13:18:39.5721756+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-23",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-23",
+				"time": "12:30:00"
+			},
+			"id": "0e8df22870f64112b6c1d7c5177d79aa",
+			"additionalId": "1597042095",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-06-23T11:00:00+02:00",
+			"end": "2024-06-23T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Susanne Öhlén",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Diakoniassistent Sofia Berglund",
+					"title": "Diakon",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:19.7254433+01:00",
+			"updated": "2024-04-04T13:19:10.6756769+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-26",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-26",
+				"time": "08:45:00"
+			},
+			"id": "4f482ec7f3e543e59f20243a5dc8034c",
+			"additionalId": "702035646",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-06-26T08:00:00+02:00",
+			"end": "2024-06-26T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:53.1867577+01:00",
+			"updated": "2023-11-22T16:15:46.8832714+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-27",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-27",
+				"time": "18:45:00"
+			},
+			"id": "cc92626595b14613adc4ad27e1ea82da",
+			"additionalId": "1981310012",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-06-27T18:00:00+02:00",
+			"end": "2024-06-27T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:20.1197212+01:00",
+			"updated": "2023-11-22T16:19:43.4209297+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-30",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-06-30",
+				"time": "12:30:00"
+			},
+			"id": "95649da3171d44a584ae11d3a21d9984",
+			"additionalId": "990758995",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa - livesänds",
+			"start": "2024-06-30T11:00:00+02:00",
+			"end": "2024-06-30T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Kent Nordin",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Per Brudsten",
+					"title": "Musiker",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:20.141418+01:00",
+			"updated": "2024-04-04T13:19:41.7746905+02:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-03",
+				"time": "08:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-03",
+				"time": "08:45:00"
+			},
+			"id": "1c408d0574da429e88d8e8cb5761914c",
+			"additionalId": "772913346",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Morgonmässa",
+			"start": "2024-07-03T08:00:00+02:00",
+			"end": "2024-07-03T08:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-02T09:30:53.5324823+01:00",
+			"updated": "2023-11-22T16:16:07.9990906+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-03",
+				"time": "20:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-03",
+				"time": "21:00:00"
+			},
+			"id": "d59ea6f03f884237ad6d61fd6c5c71fe",
+			"additionalId": "1766655001",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Sommarmusik",
+			"start": "2024-07-03T20:00:00+02:00",
+			"end": "2024-07-03T21:00:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:55:30.2575358+01:00",
+			"updated": "2024-03-15T11:32:53.7249171+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-04",
+				"time": "18:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-04",
+				"time": "18:45:00"
+			},
+			"id": "7ecda24ea0fb4441b4294970bef73676",
+			"additionalId": "1121573415",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Veckomässa",
+			"start": "2024-07-04T18:00:00+02:00",
+			"end": "2024-07-04T18:45:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"created": "2023-11-01T11:38:20.51184+01:00",
+			"updated": "2023-11-22T16:17:12.6709869+01:00"
+		},
+		{
+			"startLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-07",
+				"time": "11:00:00"
+			},
+			"endLocalTime": {
+				"offset": "+02:00",
+				"date": "2024-07-07",
+				"time": "12:30:00"
+			},
+			"id": "2dabbf294a9c4d8fb060caeac4e2cb4e",
+			"additionalId": "1189719006",
+			"owner": {
+				"producerId": "25a6850a-5146-4302-8793-8331fa11dfc7",
+				"sourceId": "46bcc1a2-3c9e-4fb7-8e79-152c20c17543",
+				"id": "20270"
+			},
+			"title": "Högmässa med konfrimation - livesänds",
+			"description": "Välkommen på högmässa med konfirmation för konfirmander i Upplevelsegruppen.",
+			"start": "2024-07-07T11:00:00+02:00",
+			"end": "2024-07-07T12:30:00+02:00",
+			"isFullDayEvent": false,
+			"access": "External",
+			"attendanceMode": {
+				"offline": {}
+			},
+			"performers": [
+				{
+					"name": "Katarina Adamsson",
+					"title": "Präst",
+					"consentGiven": true
+				},
+				{
+					"name": "Heri Eysturlíð",
+					"title": "Musiker",
+					"consentGiven": true
+				},
+				{
+					"name": "Christina Nilsson",
+					"title": "Ansvarig",
+					"consentGiven": true
+				}
+			],
+			"contact": {
+				"consentGiven": true
+			},
+			"place": {
+				"id": "5dab016f-18f3-4973-92d8-69779653a1ef"
+			},
+			"eventType": {
+				"gudstjanstOchMassa": {}
+			},
+			"created": "2023-11-01T10:57:20.5230034+01:00",
+			"updated": "2024-04-04T13:20:14.3282972+02:00"
+		}
+	],
+	"status": "Ok",
+	"traceId": "|86023612-4ff81b94d47d5843.86023613_200aff0d_",
+	"instanceName": "prod1"
+}
