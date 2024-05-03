@@ -191,11 +191,12 @@
 
         $api_url = 'https://svk-apim-prod.azure-api.net/calendar/v1/event/search?subscription-key='.$api_nyckel.'&limit=50'.'&expand=*'.'&owner_id='.$organisations_id.'&from=now'/*.'&to=2w'*/;
         # expand=* Tar med t.ex. platsnamnet, inte bara platsID - Underlättar :)
-
+        
+        # Härnösands domkyrka = 5dab016f-18f3-4973-92d8-69779653a1ef
+        //$location_id = "5dab016f-18f3-4973-92d8-69779653a1ef";
         if ($location_id !== '') { //Låt API:t filtrera location_id om vi filtrerar på ett sådant.
                 $api_url .= '&place_id='.$location_id; # I nya api:t kan det vara abc123 eller abc123,abc456,abc789 - den senare tar händelser från alla tre platser
         }
-        # Härnösands domkyrka = 5dab016f-18f3-4973-92d8-69779653a1ef
 
         //TODO: Bygg query baserat på url-params
         $query = "";
