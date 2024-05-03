@@ -86,7 +86,7 @@ body {
 }
 
 .datum h2 {
-	margin: 0;
+	margin: 0 0 24px 0;
 	font-size: 24px;
 	/*text-transform: uppercase;*/
 	font-family: 'DM Sans Medium', 'Arial Bold', sans-serif;
@@ -94,7 +94,7 @@ body {
 }
 
 .handelse {
-	margin: 0 0 8px 0;
+	margin: 0 0 18px 0;
 }
 
 .handelse p {
